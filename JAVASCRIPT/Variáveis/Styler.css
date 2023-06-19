@@ -1,0 +1,25 @@
+main, section, article
+{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+button
+{
+    background-color: rgb(18, 89, 221);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px #ccc;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+input
+{
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px #ccc;
+    margin: 5px;
+}

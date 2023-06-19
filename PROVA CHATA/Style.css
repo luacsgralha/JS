@@ -1,0 +1,13 @@
+body
+{
+    background-color: azure;
+
+}
+
+main
+{
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    border-bottom-left-radius: 5%;
+}

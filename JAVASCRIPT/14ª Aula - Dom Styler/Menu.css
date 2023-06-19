@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebar
+{
+    background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    position: fixed;
+    padding-top: 60px;
+    top: 0;
+    transition: 0.5s;
+    width: 0;
+    z-index: 1;
+}
+
+.sidebar a
+{
+    color: #818181;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.sidebar a:hover 
+{
+    color: #f1f1f1;
+
+}
+
+.sidebar .closebtn
+{
+    right: 25px;
+    top: 0;
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.openbtn
+{
+    background-color: #111;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+
+}
+
+.openbtn:hover 
+{
+    background-color: #444;
+
+}
+
+#main
+{
+    transition: 0.5s;
+}

@@ -1,0 +1,17 @@
+body
+{
+    background-color: #c2c2c2;
+}
+
+main
+{
+    margin: auto;
+    justify-content: center;
+    max-width: max-content;
+}
+
+button
+{
+    
+    max-height: 20px;
+}
